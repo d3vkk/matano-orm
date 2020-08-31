@@ -1,7 +1,6 @@
 <?php
 
-// namespace Starling\Base;
-class Base
+class Matano
 {
 
     private $host, $user, $pass, $db, $tblname;
