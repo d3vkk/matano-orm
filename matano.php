@@ -300,4 +300,27 @@ class Matano
     }//end delete()
 
 
+    /*
+    =============
+    MIGRATE
+    ============= */
+
+
+    /**
+     * Generate SQL insert statements to migrate data from one database to another
+     *
+     * @uses   countRows()
+     * @uses   countTableRows()
+     * @uses   getColumn()
+     * @param  array $tables
+     * @return void
+     */
+    public function migrate($tables)
+    {
+        $_SESSION['migrate_tables'] = $tables;
+        header('location: migrate.php');
+
+    }//end migrate()
+
+
 }//end class
