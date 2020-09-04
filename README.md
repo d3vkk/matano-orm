@@ -2,7 +2,7 @@
 
 ![Matano ORM Logo](https://github.com/d3vkk/matano-orm/blob/master/matano-orm-logo.png)
 
-Minimal PHP/SQL ORM. MariaDB/MySQL compatible
+Minimal PHP/SQL ORM for small projects. MariaDB/MySQL compatible.
 
 ## Prerequisites
 
@@ -10,7 +10,7 @@ You should have the following installed
 
 - [PHP 7.3 or higher](https://php.net/)
 - [MariaDB 10 or higher](https://mariadb.com/) or [MySQL 5.7 or higher](https://mysql.com/)
-  
+
 ## Set up
 
 Fork or clone this repo
