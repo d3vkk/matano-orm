@@ -1,6 +1,5 @@
 <?php
 
-session_start();
 $array = $_SESSION['error_array'];
 
 echo '<head><style>body{background: #111;color: firebrick;font-size: 1.5rem;font-family: Roboto, sans-serif;font-weight: bold;}</style></head>';
