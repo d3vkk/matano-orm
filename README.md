@@ -25,4 +25,4 @@ $db = new Model('host', 'user', 'password', 'database');
 
 Use the functions from `matano.php` to CRUD your database records in `model.php`
 
-© 2020 Donald K • Under MIT License
+© 2020-present Donald K • Under MIT License
